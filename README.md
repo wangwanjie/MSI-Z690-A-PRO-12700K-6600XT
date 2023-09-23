@@ -23,6 +23,11 @@ Components used for this build:
 - Fast Boot: Disabled（建议)
 - Secure Boot: Disabled
 
+## 23 Sep 2023 Update:
+- OpenCore 0.9.5
+- Kexts update
+- Drivers update
+
 ## 2 Sep 2023 Update:
 - OpenCore 0.9.4
 - Kexts update
