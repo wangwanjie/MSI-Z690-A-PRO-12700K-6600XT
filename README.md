@@ -16,6 +16,12 @@ Components used for this build:
 - Crate: 乔思伯 D4
 - Power: 海韵 GX 750w
 
+# 效果
+![img](https://github.com/wangwanjie/MSI-Z690-A-PRO-12700K-6600XT/blob/main/Images/boot.png)
+![img](https://github.com/wangwanjie/MSI-Z690-A-PRO-12700K-6600XT/blob/main/Images/summary.jpg)
+![img](https://github.com/wangwanjie/MSI-Z690-A-PRO-12700K-6600XT/blob/main/Images/settings.jpg)
+![img](https://github.com/wangwanjie/MSI-Z690-A-PRO-12700K-6600XT/blob/main/Images/neofetch.jpg)
+
 # BIOS 设置
 
 - SATA Operation: AHCI
@@ -73,3 +79,7 @@ Components used for this build:
 - Kexts update
 - Drivers update
 - macOS 12.5
+
+# Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=wangwanjie/MSI-Z690-A-PRO-12700K-6600XT&type=Date)](https://star-history.com/#wangwanjie/MSI-Z690-A-PRO-12700K-6600XT&Date)
