@@ -1021,13 +1021,15 @@
 				<integer>1</integer>
 				<key>revcpuname</key>
 				<string>Intel Core i7-12700K @ 4.8 GHz</string>
+				<key>revpatch</key>
+				<string>sbvmm,pci,cpuname</string>
 			</dict>
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>SystemAudioVolume</key>
 				<data>YA==</data>
 				<key>boot-args</key>
-				<string>keepsyms=1 debug=0x100 -wegnoigpu agdpmod=pikera revpatch=sbvmm</string>
+				<string>keepsyms=1 debug=0x100 -wegnoigpu agdpmod=pikera</string>
 				<key>csr-active-config</key>
 				<data>AwgAAA==</data>
 				<key>prev-lang:kbd</key>
