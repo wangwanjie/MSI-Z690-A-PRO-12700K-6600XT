@@ -770,7 +770,7 @@
 				<key>Auxiliary</key>
 				<false/>
 				<key>Comment</key>
-				<string></string>
+				<string>Mint</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Flavour</key>
@@ -1021,8 +1021,6 @@
 				<integer>1</integer>
 				<key>revcpuname</key>
 				<string>Intel Core i7-12700K @ 4.8 GHz</string>
-				<key>revpatch</key>
-				<string>sbvmm,pci,cpuname</string>
 			</dict>
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
