@@ -29,6 +29,9 @@ Components used for this build:
 - Fast Boot: Disabled（建议)
 - Secure Boot: Disabled
 
+## 02 May 2024 Update:
+- BIOS update adapting
+
 ## 22 Mar 2024 Update:
 - OpenCore 0.9.9
 - Kexts update
