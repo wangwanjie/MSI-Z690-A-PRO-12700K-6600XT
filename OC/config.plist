@@ -8,7 +8,7 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string></string>
+				<string>New desktop platform usage for repairing embedded controllers</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -16,15 +16,15 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string></string>
+				<string>300 series motherboard use</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Path</key>
 				<string>SSDT-AWAC.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string></string>
+				<string>12th generation CPU size core scheduling</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -32,9 +32,9 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string></string>
+				<string>Fixes an issue on some 400 series motherboards that requires shutting down the RHUB device and forcing macOS to manually rebuild ports</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Path</key>
 				<string>SSDT-RHUB.aml</string>
 			</dict>
@@ -218,7 +218,7 @@
 				<key>BundlePath</key>
 				<string>Lilu.kext</string>
 				<key>Comment</key>
-				<string></string>
+				<string>Arbitrary kext and process patching on macOS</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -236,7 +236,7 @@
 				<key>BundlePath</key>
 				<string>VirtualSMC.kext</string>
 				<key>Comment</key>
-				<string></string>
+				<string>SMC emulator layer</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -254,7 +254,7 @@
 				<key>BundlePath</key>
 				<string>AMFIPass.kext</string>
 				<key>Comment</key>
-				<string></string>
+				<string>AMFIPass.kext is a replacement for amfi=0x80 boot argument.</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -272,7 +272,7 @@
 				<key>BundlePath</key>
 				<string>AppleIGC.kext</string>
 				<key>Comment</key>
-				<string></string>
+				<string>Intel 2.5G Ethernet(i225/i226) driver for macOS</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -290,7 +290,7 @@
 				<key>BundlePath</key>
 				<string>WhateverGreen.kext</string>
 				<key>Comment</key>
-				<string></string>
+				<string>Various patches necessary for certain ATI/AMD/Intel/Nvidia GPUs</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -308,7 +308,7 @@
 				<key>BundlePath</key>
 				<string>AppleALC.kext</string>
 				<key>Comment</key>
-				<string></string>
+				<string>An open source kernel extension enabling native macOS HD audio for not officially supported codecs without any filesystem modifications. </string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -326,7 +326,7 @@
 				<key>BundlePath</key>
 				<string>CPUFriend.kext</string>
 				<key>Comment</key>
-				<string></string>
+				<string>Dynamic macOS CPU power management data injection</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -362,7 +362,7 @@
 				<key>BundlePath</key>
 				<string>CpuTopologyRebuild.kext</string>
 				<key>Comment</key>
-				<string></string>
+				<string>An experimental Lilu plugin that optimizes Alder Lake / Raptor Lake's heterogeneous core configuration.</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -380,7 +380,7 @@
 				<key>BundlePath</key>
 				<string>FeatureUnlock.kext</string>
 				<key>Comment</key>
-				<string></string>
+				<string>Add Sidecar support to unsupported models</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -398,7 +398,7 @@
 				<key>BundlePath</key>
 				<string>HibernationFixup.kext</string>
 				<key>Comment</key>
-				<string></string>
+				<string>A Lilu plugin intended to fix hibernation compatibility issues</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -416,7 +416,7 @@
 				<key>BundlePath</key>
 				<string>HoRNDIS.kext</string>
 				<key>Comment</key>
-				<string></string>
+				<string>Android USB tethering driver for Mac OS X</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -434,7 +434,7 @@
 				<key>BundlePath</key>
 				<string>RestrictEvents.kext</string>
 				<key>Comment</key>
-				<string></string>
+				<string>Lilu Kernel extension for blocking unwanted processes causing compatibility issues on different hardware and unlocking the support for certain features restricted to other hardware.</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -488,7 +488,7 @@
 				<key>BundlePath</key>
 				<string>SMCRadeonSensors.kext</string>
 				<key>Comment</key>
-				<string></string>
+				<string>AMD GPU temperature monitoring on macOS</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -1103,37 +1103,6 @@
 		<true/>
 		<key>CustomMemory</key>
 		<false/>
-		<key>DataHub</key>
-		<dict>
-			<key>ARTFrequency</key>
-			<integer>0</integer>
-			<key>BoardProduct</key>
-			<string>Mac-27AD2F918AE68F61</string>
-			<key>BoardRevision</key>
-			<data>CQ==</data>
-			<key>DevicePathsSupported</key>
-			<integer>0</integer>
-			<key>FSBFrequency</key>
-			<integer>0</integer>
-			<key>InitialTSC</key>
-			<integer>0</integer>
-			<key>PlatformName</key>
-			<string></string>
-			<key>SmcBranch</key>
-			<data></data>
-			<key>SmcPlatform</key>
-			<data>ajE2MAAAAAA=</data>
-			<key>SmcRevision</key>
-			<data></data>
-			<key>StartupPowerEvents</key>
-			<integer>0</integer>
-			<key>SystemProductName</key>
-			<string>MacPro7,1</string>
-			<key>SystemSerialNumber</key>
-			<string>F5KYGVZRP7QM</string>
-			<key>SystemUUID</key>
-			<string>F9C4E690-AA6B-4A85-847B-0BFD8CF0A861</string>
-		</dict>
 		<key>Generic</key>
 		<dict>
 			<key>AdviseFeatures</key>
