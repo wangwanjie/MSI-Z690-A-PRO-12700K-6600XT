@@ -18,9 +18,9 @@ Components used for this build:
 
 # 效果
 ![img](https://github.com/wangwanjie/MSI-Z690-A-PRO-12700K-6600XT/blob/main/Images/boot.png)
-![img](https://github.com/wangwanjie/MSI-Z690-A-PRO-12700K-6600XT/blob/main/Images/summary.jpg)
-![img](https://github.com/wangwanjie/MSI-Z690-A-PRO-12700K-6600XT/blob/main/Images/settings.jpg)
-![img](https://github.com/wangwanjie/MSI-Z690-A-PRO-12700K-6600XT/blob/main/Images/neofetch.jpg)
+![img](https://github.com/wangwanjie/MSI-Z690-A-PRO-12700K-6600XT/blob/main/Images/summary.png)
+![img](https://github.com/wangwanjie/MSI-Z690-A-PRO-12700K-6600XT/blob/main/Images/settings.png)
+![img](https://github.com/wangwanjie/MSI-Z690-A-PRO-12700K-6600XT/blob/main/Images/neofetch.png)
 
 # BIOS 设置
 
