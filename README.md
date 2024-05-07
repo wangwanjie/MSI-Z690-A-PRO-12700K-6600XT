@@ -20,8 +20,6 @@ Components used for this build:
 
 > everything
 
-注意：如果要睡眠，主板要关闭 Wake On Lan
-
 # 效果
 ![img](https://github.com/wangwanjie/MSI-Z690-A-PRO-12700K-6600XT/blob/main/Images/boot.png)
 ![img](https://github.com/wangwanjie/MSI-Z690-A-PRO-12700K-6600XT/blob/main/Images/summary.png)
@@ -34,7 +32,8 @@ Components used for this build:
 - CFG Lock: Disabled
 - Fast Boot: Disabled（建议)
 - Secure Boot: Disabled
-- Wake On Lan: 如果要睡眠就关，要远程唤醒就开
+- Resume By PCI-E/Networking Device: 如果要睡眠就关，要远程唤醒就开
+- Resume By Intel Onboard LAN: 如果要睡眠就关，要远程唤醒就开
 
 ## 02 May 2024 Update:
 - BIOS update adapting
