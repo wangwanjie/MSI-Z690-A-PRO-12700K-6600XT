@@ -9,12 +9,18 @@ Components used for this build:
 - CPU: Intel(R) Core(TM) i7-12700K CPU @ 3.6GHz
 - Motherboard: MSI Z690-A PRO
 - Memory: PREDATOR Apollo 16 * 2 GB DDR4 3600MHz
-- Storage: SN850 1TB * 2 + ADATA XPG 512 GB + WD Black HDD 1T
+- Storage: SN850 1TB * 2 + ADATA XPG 512 GB + FanXiang S790 1T + WD Black HDD 1T
 - GPU: GIGABYTE Radeon 6600XT GAMINGOC PRO-8G
 - WIFI: BCM943602CS 双频10DB
 - Radiator: 利民冰封幻境 240 ARGB
 - Crate: 乔思伯 D4
 - Power: 海韵 GX 750w
+
+# Work
+
+> everything
+
+注意：如果要睡眠，主板要关闭 Wake On Lan
 
 # 效果
 ![img](https://github.com/wangwanjie/MSI-Z690-A-PRO-12700K-6600XT/blob/main/Images/boot.png)
@@ -28,6 +34,7 @@ Components used for this build:
 - CFG Lock: Disabled
 - Fast Boot: Disabled（建议)
 - Secure Boot: Disabled
+- Wake On Lan: 如果要睡眠就关，要远程唤醒就开
 
 ## 02 May 2024 Update:
 - BIOS update adapting
