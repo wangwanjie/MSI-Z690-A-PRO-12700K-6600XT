@@ -709,7 +709,9 @@
 	<key>Misc</key>
 	<dict>
 		<key>BlessOverride</key>
-		<array/>
+		<array>
+			<string>\EFI\Microsoft\Boot\bootmgfw.efi</string>
+		</array>
 		<key>Boot</key>
 		<dict>
 			<key>ConsoleAttributes</key>
@@ -723,7 +725,7 @@
 			<key>InstanceIdentifier</key>
 			<string></string>
 			<key>LauncherOption</key>
-			<string>Disabled</string>
+			<string>Full</string>
 			<key>LauncherPath</key>
 			<string>Default</string>
 			<key>PickerAttributes</key>
@@ -1138,7 +1140,7 @@
 		<key>Generic</key>
 		<dict>
 			<key>AdviseFeatures</key>
-			<false/>
+			<true/>
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
