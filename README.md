@@ -35,6 +35,11 @@ Components used for this build:
 - Resume By PCI-E/Networking Device: 如果要睡眠就关，要远程唤醒就开
 - Resume By Intel Onboard LAN: 如果要睡眠就关，要远程唤醒就开
 
+## 7 Mar 2026 Update:
+- OpenCore 1.0.6
+- Kexts update
+- Drivers update
+
 ## 15 Dec 2024 Update:
 - OpenCore 1.0.3
 - Kexts update
